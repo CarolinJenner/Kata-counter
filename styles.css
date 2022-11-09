@@ -1,0 +1,67 @@
+/******** general stylings *******/
+
+*,
+*:before,
+*:after  {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --clr-yellow-01: hsl(45, 100%, 85%);
+    --clr-blue-03: hsl(241, 60%, 64%);
+    --clr-red-01: hsl(0, 68%, 37%);
+}
+
+
+html {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background-color: var(--clr-yellow-01);
+} 
+
+/******** specific stylings *******/
+header {
+    background-color: var(--clr-blue-03);
+    height: 20vh;
+}
+
+/******** utilities *******/
+
+/**sizes**/
+
+.fnts-2rem {
+    font-size: 2rem;
+}
+
+.fnts-3rem {
+    font-size: 3rem;
+}
+
+/**colors & borders**/
+.clr-yellow-01 {
+    color: var(--clr-yellow-01);
+}
+
+.clr-red-01 {
+    color: var(--clr-red-01);
+}
+
+.clr-blue-03 {
+    color: var(--clr-blue-03);
+}
+
+.clr-outl-
+
+/**felx**/
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+/**attributes**/
+
